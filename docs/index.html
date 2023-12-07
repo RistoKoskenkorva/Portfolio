@@ -108,10 +108,10 @@
 				<div class="content">
 					<header>
 						<h2>Say Hello (World).</h2>
-						<p>In those rare occasions where you want to contact me.</p>
+						<p>In those rare occasions where you want to contact me. (WIP)</p>
 					</header>
 					<div class="box">
-						<form method="post" action="mailto:ristokoskenkorva@gmail.com?subject=Contact%20Form&body=Hello%20recipient," enctype="text/plain">
+						<form method="post" action="id="useremail"?subject=Contact%20Form&body=Hello%20recipient," enctype="text/plain">
 							<div class="fields">
 								<div class="field half"><input type="text" name="name" placeholder="Name" required /></div>
 								<div class="field half"><input type="email" name="email" placeholder="Email" required /></div>
@@ -124,6 +124,19 @@
 					</div>
 				</div>
 			</section>
+			
+<script>
+    // Replace 'user' and 'domain' with your actual email address parts
+    var user = "ristokoskenkorva";
+    var domain = "gmail.com";
+    
+    // Create the email address dynamically
+    var emailAddress = user + "@" + domain;
+
+    // Display the email address in the HTML
+    document.getElementById("useremail").innerHTML = '<a href="mailto:' + emailAddress + '">' + emailAddress + '</a>';
+</script>
+
 
 		<!-- Footer -->
 			<footer id="footer">
