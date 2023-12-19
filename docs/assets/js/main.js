@@ -119,7 +119,7 @@
 						.scrollex({
 							top:		'30vh',
 							bottom:		'30vh',
-							delay:		5, //50
+							delay:		50, //50
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
 							enter:		function() { $(this).removeClass('inactive'); },
@@ -130,7 +130,7 @@
 					$('.main.style1')
 						.scrollex({
 							mode:		'middle',
-							delay:		10, //100
+							delay:		100, //100
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
 							enter:		function() { $(this).removeClass('inactive'); },
@@ -140,7 +140,7 @@
 					$('.main.style2')
 						.scrollex({
 							mode:		'middle',
-							delay:		10, //100
+							delay:		100, //100
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
 							enter:		function() { $(this).removeClass('inactive'); },
