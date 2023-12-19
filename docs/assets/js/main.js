@@ -130,7 +130,7 @@
 					$('.main.style1')
 						.scrollex({
 							mode:		'middle',
-							delay:		1, //100
+							delay:		10, //100
 							initialize:	function() { $(this).addClass('inactive'); },
 							terminate:	function() { $(this).removeClass('inactive'); },
 							enter:		function() { $(this).removeClass('inactive'); },
@@ -199,7 +199,7 @@
 
 					// Update scrolly links.
 						$('a[href^="#"]').scrolly({
-							speed: 15000, //1500
+							speed: 1500, //1500
 							offset: $header.outerHeight() - 1
 						});
 
